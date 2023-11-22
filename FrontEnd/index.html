@@ -23,6 +23,7 @@
 	<!-- Fichiers JS-->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<script type="module" src="./js/modal.js" defer></script>
+	<script type="module" src="./js/scrool-smooth.js" defer></script>
 	<script type="module" src="./js/export-projets-api.js" defer></script>
 	<script type="module" src="./js/projets.js" defer></script>
 	<script type="module" src="./js/login-editor.js" defer></script>
@@ -159,22 +160,6 @@
 <!-- Footer End -->
 
 <!-- Script scrollsmooth -->
-	<script>
-	$(document).ready(function(){
-	  $("a").on('click', function(event) {
-		if (this.hash !== "") {
-		  event.preventDefault();
-		  var hash = this.hash;
-	
-		  $('html, body').animate({
-			scrollTop: $(hash).offset().top
-		  }, 800, function(){
-	   
-			window.location.hash = hash;
-		  });
-		} 
-	  });
-	});
-	</script>
+
 </body>
 </html>
