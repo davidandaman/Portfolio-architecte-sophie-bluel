@@ -5,16 +5,13 @@
   <br>
   <legend>David <strong>Julien</strong></legend>
 <br>
+<br>
 </p>
 
-###
+
 
 <h1 align="center">OpenClassRooms Portfolio - Projet 6</h1>
-
 <h3 align="center">Créez une page web dynamique avec JavaScript</h3>
-
-###
-
 <h2 align="center">Les étapes du projet :</h2>
 
 ###
@@ -34,7 +31,27 @@
 <p>✓ <strong>Étape 13 :</strong> Vérification l’ensemble du projet et s’assurer du traitement des erreurs dans les formulaires</p>
 
 ###
-<hr>
+
 <p align="center">
-  <img src="https://pacificgraphic.com/dj/shoot_p6.jpg" alt="Projet 6" width="100%">
+  <img src="https://pacificgraphic.com/dj/shoot1_p6.jpg" alt="Projet 6" width="100%">
 </p>
+
+<hr>
+
+### Déploiement
+Le site est hébergé dans un dépot sur la plateforme Git Hub :
+https://github.com/davidandaman/Portfolio-architecte-sophie-bluel
+
+### Technologies
+* JAVASCRIPT/HTML5/CSS3
+
+
+### Date de création
+* 25 octobre 2023
+
+
+### Auteur
+* David JULIEN
+
+### License
+* Ce projet est sous la licence GNU GPL V3.
