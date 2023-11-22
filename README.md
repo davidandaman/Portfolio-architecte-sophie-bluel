@@ -1,11 +1,10 @@
 
 
-<div style="text-align: left;">
-
-<img src="https://pacificgraphic.com/dj/IMG_2303_BlueCrop.png" alt="David Julien" width="178" height="200">
-<legend>David Julien</legend>
-
-</div>
+<p align="center">
+  <img src="https://pacificgraphic.com/dj/IMG_2303_BlueCrop.png" alt="David Julien" width="178" height="200">
+  <br>
+  <legend>David Julien</legend>
+</p>
 
 <h1 align="center">OpenClassRooms Portfolio - Projet 6</h1>
 
