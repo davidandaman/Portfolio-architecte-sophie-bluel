@@ -1,6 +1,6 @@
 
 
-<div style="text-align: center;">
+<div style="text-align: left;">
 
 <img src="https://pacificgraphic.com/dj/IMG_2303_BlueCrop.png" alt="David Julien" width="178" height="200">
 <legend>David Julien</legend>
