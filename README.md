@@ -1,9 +1,10 @@
 
 <div align="center">
   <img src="https://pacificgraphic.com/dj/IMG_2303_BlueCrop.png" alt="David J" width="178" height="200"  />
+  <legend>David<strong>Julien</strong> </legend>
 </div>
 
-<h1 align="center">Projet 6 OpenClassRooms Portfolio</h1>
+<h1 align="center">OpenClassRooms Portfolio - Projet 6</h1>
 
 ###
 
