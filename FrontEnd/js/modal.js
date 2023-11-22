@@ -25,7 +25,7 @@ function openModal() {
   document.getElementById('prevPageLink').addEventListener('click', prevPage);
 }
 
-// Déclarez closeModal en tant que fonction globale
+// Déclaration du closeModal en tant que fonction globale
 window.closeModal = function () {
   console.log("Closing modal");
   modal.style.display = 'none';
