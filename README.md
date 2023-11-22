@@ -3,8 +3,11 @@
 <p align="center">
   <img src="https://pacificgraphic.com/dj/IMG_2303_BlueCrop.png" alt="David Julien" width="178" height="200">
   <br>
-  <legend>David Julien</legend>
+  <legend>David <strong>Julien</strong></legend>
+<br>
 </p>
+
+###
 
 <h1 align="center">OpenClassRooms Portfolio - Projet 6</h1>
 
@@ -32,4 +35,4 @@
 <p>✓ <strong>Étape 12 :</strong> Traitement de la réponse de l’API pour afficher dynamiquement la nouvelle image de la modale.</p>
 <p>✓ <strong>Étape 13 :</strong> Vérification l’ensemble du projet et s’assurer du traitement des erreurs dans les formulaires</p>
 
-
+###
