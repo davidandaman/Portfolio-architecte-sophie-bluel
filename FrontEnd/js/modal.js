@@ -29,7 +29,7 @@ function openModal() {
 window.closeModal = function () {
   console.log("Closing modal");
   modal.style.display = 'none';
-  for (var i = 0; i < pages.length; i++) {
+  for (let i = 0; i < pages.length; i++) {
     pages[i].style.display = 'none';
   }
   document.getElementById('nextPageLink').removeEventListener('click', nextPage);
