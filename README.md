@@ -11,8 +11,6 @@
 
 <h1 align="center">OpenClassRooms Portfolio - Projet 6</h1>
 
-###
-
 <h3 align="center">Créez une page web dynamique avec JavaScript</h3>
 
 ###
@@ -36,3 +34,7 @@
 <p>✓ <strong>Étape 13 :</strong> Vérification l’ensemble du projet et s’assurer du traitement des erreurs dans les formulaires</p>
 
 ###
+<hr>
+<p align="center">
+  <img src="https://pacificgraphic.com/dj/shoot_p6.jpg" alt="Projet 6" width="100%">
+</p>
