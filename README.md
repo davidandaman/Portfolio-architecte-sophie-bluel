@@ -54,7 +54,7 @@ https://github.com/davidandaman/Portfolio-architecte-sophie-bluel
 
 3. L'url du projet est accessible à cette adresse : http://127.0.0.1:5502/FrontEnd/index.html
 
-4. Les informations de connexions au login du site sont aussi dans le fichier Readme.md du dossier Backend
+4. Les informations de connexion au login du site sont aussi dans le fichier Readme.md du dossier Backend
 
 
 
