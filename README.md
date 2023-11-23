@@ -38,9 +38,25 @@
 
 <hr>
 
+
 ### Déploiement
 Le site est hébergé dans un dépot sur la plateforme Git Hub :
 https://github.com/davidandaman/Portfolio-architecte-sophie-bluel
+
+
+
+### Accessibilité
+* Étapes pour lancer le projet :
+
+1. Lancer le backend d'après les informations contenu dans le fichier Readme.md du dossier Backend.
+
+2. les informations de l'API sont également dans le fichier Readme.md du dossier Backend.
+
+3. L'url du projet est accessible à cette adresse : http://127.0.0.1:5502/FrontEnd/index.html
+
+4. Les informations de connexions au login du site sont aussi dans le fichier Readme.md du dossier Backend
+
+
 
 ### Technologies
 * JAVASCRIPT/HTML5/CSS3

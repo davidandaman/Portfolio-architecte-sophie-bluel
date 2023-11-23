@@ -24,6 +24,16 @@ export const categoriesPortfolio = async () => {
   }
 };
 
+
+/***********************************************
+************ INITIALISATION DES DONNÉES *********
+************************************************/
+export const works = await worksPortfolio();
+export const categories = await categoriesPortfolio();
+
+
+
+
 /***********************************************
 ************ AUTORISATIONS API *****************
 ************************************************/
@@ -103,12 +113,11 @@ export const deleteApi = async (event, id) => {
 export const createProjectFormData = (title, imageFile, category) => {
   const formData = new FormData();
 
-  // Logging to check the values being appended
   console.log('Title:', title);
   console.log('Image:', imageFile);
   console.log('Category:', category);
 
-  // Ajouter les champs requis pour l'API
+  // Ajout des champs requis pour l'API
   formData.append('title', title);
   formData.append('image', imageFile);
   formData.append('category', category);
@@ -147,9 +156,3 @@ export const postApi = async (projectId) => {
     console.error("Erreur :", error);
   }
 };
-
-/***********************************************
-************ INITIALISATION DES DONNÉES *********
-************************************************/
-export const works = await worksPortfolio();
-export const categories = await categoriesPortfolio();

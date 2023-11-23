@@ -43,6 +43,7 @@ const displayFilters = (categorie) => {
 displayFilters(categories);
 displayGallery(works);
 
+
 /** Boutons qui filtrent les projets */
 const filterButtons = document.querySelectorAll(".button-filter button");
 
