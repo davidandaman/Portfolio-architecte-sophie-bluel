@@ -32,8 +32,7 @@ export const miniDisplayGallery = (projet) => {
         }
     });
     
-    // Ajoutez l'ID du projet en tant qu'attribut data-id
-    // à l'élément display-mini-project.
+    // Ajoutez l'ID du projet en tant qu'attribut data-id à l'élément display-mini-project.
     displayMiniProject.setAttribute("data-id", projectId);
     displayMiniProject.appendChild(trashIcon);
     displayMiniProject.appendChild(image);

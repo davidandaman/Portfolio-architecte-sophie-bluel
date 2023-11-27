@@ -4,9 +4,7 @@ const filter = document.querySelector(".button-filter");
 const portfolioTitle = document.querySelector(".portfolio-title");
 const introduction = document.querySelector("#introduction figure");
 
-/**
- * Fonction pour afficher le mode édition.
- */
+/** Fonction pour afficher le mode édition.*/
 const loginEditor = () => {
     const editorTop = document.createElement("div");
     editorTop.className = "login-edition";
@@ -21,9 +19,7 @@ const loginEditor = () => {
 if (localStorage) {
     loginEditor();
 
-    /**
-     * Bouton de déconnexion.
-     */
+    /** Bouton de déconnexion.*/
     logout.addEventListener("click", () => {
         sessionStorage.clear();
     });

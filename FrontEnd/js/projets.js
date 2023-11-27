@@ -23,10 +23,6 @@ export const displayGallery = (projet) => {
         }
     }
 
-/** Suppression de contenu des éléments HTML avec .button-filter, puis création des boutons pour chaque élément
- * du tableau categorie pour les ajouter au HTML. Le premier bouton affiche "Tous" et les autres boutons affichent
- * le nom des éléments du tableau categorie */
-
 const displayFilters = (categorie) => {
     document.querySelector(".button-filter").innerHTML = '';
     const buttonAll = document.createElement("button");
@@ -39,16 +35,14 @@ const displayFilters = (categorie) => {
         filter.appendChild(button);
     }
 }
-/** Affichage des catégories et des projets */
+
 displayFilters(categories);
 displayGallery(works);
 
 
-/** Boutons qui filtrent les projets */
 const filterButtons = document.querySelectorAll(".button-filter button");
 
-/** création de la classe CSS de "bouton_actif" au premier bouton.
- * setAttribute : spécifie l'attribut avec : class, sa valeur : bouton_actif) */
+/** création de la classe CSS de "bouton_actif" au premier bouton */
 filterButtons[0].setAttribute("class", "bouton_actif");
 
 /** Boucle  clic utilisateur */
@@ -60,20 +54,17 @@ for (let i = 0; i < filterButtons.length; i++) {
             filterButtons[i].removeAttribute("class", "bouton_actif");
         }
 
-        /** la classe CSS "bouton_actif" est ajoutée au bouton cliqué.
-         * Rendre visuellement le bouton actif */
+        /** la classe CSS "bouton_actif" est ajoutée au bouton cliqué */
         filterButtons[i].setAttribute("class", "bouton_actif");
 
-        /** une condition pour vérifier si  le premier bouton "Tous" a été cliqué.
-         *  Dans ce cas, la fonction displayGallery affiche le tableau works sans aucun filtre */
+        /** une condition pour vérifier si  le premier bouton "Tous" a été cliqué la fonction displayGallery affiche le tableau works sans filtre */
         if (i === 0) {
           displayGallery(works);
 
         } else {
 
             /** Tableau ElementsFiltered est créé avec la méthode filter() du tableau works.
-             * Seuls les éléments ayant une categoryId (clé de la works del’API) égale à l'index i du bouton cliqué
-             * sont inclus dans ce tableau)*/
+             * Seuls les éléments ayant une categoryId (clé de la works del’API) égale à l'index i du bouton cliqué ont inclus dans ce tableau)*/
             const ElementsFiltered = works.filter(projet => projet.categoryId == i);
 
             /** Affichage de la galerie avec les éléments filtrés en fonction de la categoryId du bouton cliqué */
